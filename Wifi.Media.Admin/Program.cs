@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Wifi.Media.Admin
 {
 	static class Program
@@ -18,6 +19,8 @@ namespace Wifi.Media.Admin
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new FormMain());
 
+
+			
 		}
 	}
 }

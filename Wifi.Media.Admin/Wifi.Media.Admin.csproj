@@ -79,5 +79,11 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wifi.Media.Data\Wifi.Media.Data.csproj">
+      <Project>{533de0e0-5ee4-42af-b086-756a7a0535fd}</Project>
+      <Name>Wifi.Media.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
